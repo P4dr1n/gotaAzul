@@ -29,7 +29,7 @@ font-size: 46px;
 color: #fff'
 }
 .nav {
-  position: fixed;
+  position: sticky;
   z-index:1;
   background-color: #016f77;
   top: 0;
