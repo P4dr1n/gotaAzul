@@ -2,25 +2,9 @@
 @media only screen and (hover: none) and (pointer: coarse){
         .topnav {
           position: relative;
-          z-index:1;
-          background-color: #016f77;
-          top: 0;
-          left: 0;
-          right: 0;
-          overflow: hidden;
-          transition: all 0.3s ease-in-out;
         }
         .topnav #myLinks {
           display:none;
-          padding: 20px 0;
-          transition: all 0.3s ease-in-out;
-        }
-        .topnav a {
-          display: block;
-          color: #fff;
-          text-decoration: none;
-          padding: 7px 15px;
-          transition: all 0.3s ease-in-out;
         }
         .topnav a.icon {
           background: rgba(0, 0, 0, 0);
@@ -29,16 +13,10 @@
           right: 0;
           top: 0;
         }
-        #maps {
-          text-align:center;
-          height: auto;
-        }
         #maps iframe {
           width: 350px;
         }
         * {box-sizing:content-box}
-
-
 }
 * {
   box-sizing: border-box;
