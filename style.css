@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @media only screen and (hover: none) and (pointer: coarse){
-        .topnav {
-          position: relative;
-          display: none;
-        }
         .topnav #myLinks {
           display:none;
         }
