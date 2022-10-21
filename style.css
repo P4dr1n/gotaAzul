@@ -53,6 +53,8 @@
         #maps {
           text-align:center;
           height: auto;
+        }
+        #maps iframe {
           width: 350px;
         }
         * {box-sizing:content-box}
