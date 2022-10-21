@@ -15,6 +15,9 @@
         #maps iframe {
           width: 350px;
         }
+        #tt{
+          bottom: -20%;
+        }
 }
 * {
   box-sizing: border-box;
