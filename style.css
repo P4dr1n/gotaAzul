@@ -15,8 +15,8 @@
         #maps iframe {
           width: 350px;
         }
-        #slideshow-container{
-          margin-top: 30px;
+        #slideshow-container text{
+          font-size:medium;
         }
 }
 * {
