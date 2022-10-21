@@ -29,27 +29,6 @@
           right: 0;
           top: 0;
         }
-        .topnav.active {
-          background-color: #fff;
-          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-        }
-
-        .topnav.active a {
-          color: #04becc;
-        }
-        .topnav.active span:hover {
-          color: #016f77;
-        }
-
-        .topnav.active .container {
-          padding: 10px 0;
-        }
-
-        .topnav a.current,
-        .topnav a:hover {
-          color: #04becc;
-          font-weight: bold;
-        }
         #maps {
           text-align:center;
           height: auto;
