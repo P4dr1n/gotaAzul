@@ -1,5 +1,5 @@
 // animacao navbar
-const nav = document.querySelector('.nav')
+const nav = document.querySelector('.topnav')
 window.addEventListener('scroll', fixNav)
 
 function fixNav() {
