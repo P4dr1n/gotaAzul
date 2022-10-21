@@ -30,3 +30,11 @@ function showSlides(n) {
   slides[slideIndex-1].style.display = "block";
   slides[slideIndex-1].style.justify_content = "center";
 }
+function ham() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
