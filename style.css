@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@media screen and (max-width: 500px) {
+@media only screen and (hover: none) and (pointer: coarse){
         .topnav {
           position: relative;
           z-index:1;
