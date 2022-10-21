@@ -1,55 +1,61 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
 @media screen and (max-width: 500px) {
-.topnav {
-  position: relative;
-  z-index:1;
-  background-color: #016f77;
-  top: 0;
-  left: 0;
-  right: 0;
-  overflow: hidden;
-  transition: all 0.3s ease-in-out;
-}
-.topnav #myLinks {
-  display:none;
-  padding: 20px 0;
-  transition: all 0.3s ease-in-out;
-}
-.topnav a {
-  display: block;
-  color: #fff;
-  text-decoration: none;
-  padding: 7px 15px;
-  transition: all 0.3s ease-in-out;
-}
-.topnav a.icon {
-  background: rgba(0, 0, 0, 0);
-  display: block;
-  position: absolute;
-  right: 0;
-  top: 0;
-}
-.topnav.active {
-  background-color: #fff;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
-}
+        .topnav {
+          position: relative;
+          z-index:1;
+          background-color: #016f77;
+          top: 0;
+          left: 0;
+          right: 0;
+          overflow: hidden;
+          transition: all 0.3s ease-in-out;
+        }
+        .topnav #myLinks {
+          display:none;
+          padding: 20px 0;
+          transition: all 0.3s ease-in-out;
+        }
+        .topnav a {
+          display: block;
+          color: #fff;
+          text-decoration: none;
+          padding: 7px 15px;
+          transition: all 0.3s ease-in-out;
+        }
+        .topnav a.icon {
+          background: rgba(0, 0, 0, 0);
+          display: block;
+          position: absolute;
+          right: 0;
+          top: 0;
+        }
+        .topnav.active {
+          background-color: #fff;
+          box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);
+        }
 
-.topnav.active a {
-  color: #04becc;
-}
-.topnav.active span:hover {
-  color: #016f77;
-}
+        .topnav.active a {
+          color: #04becc;
+        }
+        .topnav.active span:hover {
+          color: #016f77;
+        }
 
-.topnav.active .container {
-  padding: 10px 0;
-}
+        .topnav.active .container {
+          padding: 10px 0;
+        }
 
-.topnav a.current,
-.topnav a:hover {
-  color: #04becc;
-  font-weight: bold;
-}
+        .topnav a.current,
+        .topnav a:hover {
+          color: #04becc;
+          font-weight: bold;
+        }
+        #maps {
+          text-align:center;
+        }
+        * {box-sizing:content-box}
+
+
 }
 * {
   box-sizing: border-box;
