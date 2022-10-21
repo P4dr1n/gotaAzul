@@ -13,7 +13,6 @@
 body {
   font-family: 'Open Sans', sans-serif;
   color: #222;
-  padding-bottom: 50px;
 }
 span{
   color: #04becc;
@@ -148,6 +147,12 @@ color: #fff'
 }
 .mySlides {
   display: none;
+  background: #016f77;
+  overflow: hidden;
+}
+.ss{
+  object-fit: cover;
+   opacity: 0.6;
 }
 .prev, .next {
   cursor: pointer;
@@ -172,19 +177,20 @@ color: #fff'
 }
 .text {
   color: #f2f2f2;
-  font-size: 15px;
   padding: 8px 12px;
   position: absolute;
-  bottom: 8px;
-  width: 100%;
+  bottom: 50%;
+  font-family: 'Open Sans', sans-serif;
   text-align: center;
 }
-.numbertext {
-  color: #f2f2f2;
-  font-size: 12px;
-  padding: 8px 12px;
-  position: absolute;
-  top: 0;
+.text h1 {
+  font-size: 46px;
+  margin: -20px 0 20px;
+}
+
+.text p {
+  font-size: 20px;
+  letter-spacing: 1px;
 }
 .fade {
   animation-name: fade;
@@ -202,6 +208,19 @@ footer {
   color: white;
   clear: both;
     position: relative;
-    height: 100px;
+    height: 130px;
     margin-bottom: -200px;
+}
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  margin: 5px 2px;
+}
+
+.fa:hover {
+    opacity: 0.7;
 }
