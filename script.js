@@ -35,6 +35,6 @@ function ham() {
   if (x.style.display === "block") {
     x.style.display = "none";
   } else {
-    x.style.display = "inline-block";
+    x.style.display = "flex";
   }
 }
