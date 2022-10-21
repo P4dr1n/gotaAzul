@@ -1,5 +1,8 @@
 @import url('https://fonts.googleapis.com/css?family=Open+Sans');
-@media only screen and (hover: none) and (pointer: coarse){
+@media only screen and (max-device-width: 640px){
+        .topnav {
+          position: relative;
+        }
         .topnav #myLinks {
           display:none;
         }
@@ -11,6 +14,9 @@
         }
         #maps iframe {
           width: 350px;
+        }
+        .hero{
+          margin-top: 1000px;
         }
 }
 * {
@@ -70,6 +76,7 @@ color: #fff'
 }
 .topnav a.icon {
   display: none;
+
 }
 .topnav.active {
   background-color: #fff;
