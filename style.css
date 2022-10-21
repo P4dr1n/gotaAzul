@@ -52,6 +52,8 @@
         }
         #maps {
           text-align:center;
+          height: auto;
+          width: 350px;
         }
         * {box-sizing:content-box}
 
