@@ -17,7 +17,6 @@
         }
         #tt{
           bottom: -50%;
-          font-size: xx-small;
         }
 }
 * {
@@ -194,20 +193,9 @@ color: #fff'
 }
 .text {
   color: #f2f2f2;
-  padding: 8px 12px;
   position: absolute;
   bottom: 50%;
-  font-family: 'Open Sans', sans-serif;
   text-align: center;
-}
-.text h1 {
-  font-size: 46px;
-  margin: -20px 0 20px;
-}
-
-.text p {
-  font-size: 20px;
-  letter-spacing: 1px;
 }
 .fade {
   animation-name: fade;
