@@ -192,11 +192,14 @@ color: #fff'
 .prev:hover, .next:hover {
   background-color:  #04becc;
 }
-.text {
+#tt{
   color: #f2f2f2;
-  position: absolute;
+  position:absolute;
   bottom: 50%;
-  left:35%;
+  margin-left: auto;
+  margin-right: auto;
+  left: 0;
+  right: 0;
   text-align: center;
 }
 .fade {
