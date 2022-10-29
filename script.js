@@ -34,7 +34,10 @@ function ham() {
   var x = document.getElementById("myLinks");
   if (x.style.display === "flex") {
     x.style.display = "none";
+    document.querySelector('.topnav').style.height = "80px";
   } else {
     x.style.display = "flex";
+    document.querySelector('.topnav').style.height = "190px";
+    x.style.fontSize = "12px";
   }
 }
