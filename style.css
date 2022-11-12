@@ -33,7 +33,7 @@ body {
   color: #222;
 }
 span{
-  color: #04becc;
+  color: #75E2FF;
   font-size: 50px;
 }
 span:hover{
@@ -51,8 +51,8 @@ color: #fff'
 .topnav {
   position: fixed;
   z-index:1;
-  background-color: #016f77;
-  height:80px;
+  background-color: #244d61;
+  height:70px;
   overflow: hidden;
   transition: all 0.3s ease-in-out;
   top: 0;
@@ -65,7 +65,6 @@ color: #fff'
   padding: 20px 0;
   justify-content: space-between;
   align-items: center;
-  margin-top: 10px;
   margin-right: 10px;
   transition: all 0.3s ease-in-out;
 }
@@ -78,7 +77,6 @@ color: #fff'
 }
 .topnav a.icon {
   display: none;
-
 }
 .topnav.active {
   background-color: #fff;
@@ -86,10 +84,10 @@ color: #fff'
 }
 
 .topnav.active a {
-  color: #04becc;
+  color: #75E2FF;
 }
 .topnav.active span:hover {
-  color: #016f77;
+  color: #244d61;
 }
 
 .topnav.active .container {
@@ -98,23 +96,22 @@ color: #fff'
 
 .topnav a.current,
 .topnav a:hover {
-  color: #04becc;
+  color: #75E2FF;
   font-weight: bold;
 }
 
 .hero {
-  background-image: url('https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fwww.siparent.com%2Fwp-content%2Fuploads%2F2020%2F05%2Fhappy-swimming-boy.jpg&f=1&nofb=1&ipt=11ab55fc94ccfaa4a845d75ba6a5c92b6f774976c4e425cda84ea4ec63e4c31d&ipo=images');
+  background-image: url('imgs/image00060.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
   height: 100vh;
   color: #fff;
-  display: flex;
+  display:flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  position: relative;
-  margin-top: -10px;
+  position:relative;
   z-index: -2;
 }
 
@@ -143,6 +140,11 @@ color: #fff'
   width: 50%;
   float: left;
 }
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 .content h2,
 .content h3 {
   font-size: 150%;
@@ -154,18 +156,15 @@ color: #fff'
   line-height: 30px;
   letter-spacing: 1.2px;
 }
-#maps {
-	text-align:center;
-}
-* {box-sizing:border-box}
-
 .slideshow-container {
   position: relative;
+  height:800px;
   margin: auto;
 }
 .mySlides {
   display: none;
-  background: #016f77;
+  height:800px;
+  background: #244d61;
   overflow: hidden;
 }
 .ss{
@@ -191,7 +190,7 @@ color: #fff'
   border-radius: 3px 0 0 3px;
 }
 .prev:hover, .next:hover {
-  background-color:  #04becc;
+  background-color:  #75E2FF;
 }
 #tt{
   color: #f2f2f2;
@@ -213,14 +212,14 @@ color: #fff'
   to {opacity: 1}
 }
 footer {
-  background-color: #016f77;
+  background-color: #244d61;
   text-align: center;
   padding: 3px;
   color: white;
   clear: both;
-    position: relative;
-    height: 130px;
-    margin-bottom: -200px;
+  position: relative;
+  height: 130px;
+  margin-bottom: -200px;
 }
 .fa {
   padding: 20px;
@@ -235,6 +234,10 @@ footer {
 .fa:hover {
     opacity: 0.7;
 }
+#maps {
+  text-align:center;
+
+}
 #maps iframe {
-          width: 2000px;
+          width: 65vw;
         }
