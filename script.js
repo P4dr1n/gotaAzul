@@ -9,7 +9,6 @@ function fixNav() {
         nav.classList.remove('active')
     }
 }
-
 //slideshow
 let slideIndex = 1;
 showSlides(slideIndex);
@@ -41,4 +40,5 @@ function ham() {
     x.style.fontSize = "12px";
   }
 }
+
 

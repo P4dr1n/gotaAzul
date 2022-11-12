@@ -161,6 +161,53 @@ color: #fff'
   height:800px;
   margin: auto;
 }
+/* imagem slides com wave */
+.custom-shape-divider-bottom-1668283969 {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+}
+
+.custom-shape-divider-bottom-1668283969 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 103px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-bottom-1668283969 .shape-fill {
+  fill: #FFFFFF;
+}
+.custom-shape-divider-top-1668284390 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  overflow: hidden;
+  line-height: 0;
+  transform: rotate(180deg);
+}
+
+.custom-shape-divider-top-1668284390 svg {
+  position: relative;
+  display: block;
+  width: calc(100% + 1.3px);
+  height: 100px;
+  transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1668284390 .shape-fill {
+  fill: #FFFFFF;
+}
+
+
+
+
+
 .mySlides {
   display: none;
   height:800px;
@@ -244,4 +291,86 @@ footer {
 .elfsight-app-4d8eda04-f1dc-4cf8-80a5-27bd378a1e40{
   align-items: center;
 }
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+div.c {
+  position: relative;
+  margin: 0em;
+  border-radius: 35px;
+}
+
+input {
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  visibility: 0;
+}
+
+h3 {
+  background: #75d2ff;
+  color: white;
+  padding: 1em;
+  position: relative;
+}
+
+label::before {
+  content: "";
+  display: inline-block;
+  border: 15px solid transparent;
+  border-left: 20px solid white;
+}
+
+label {
+  cursor: pointer;
+  position: relative;
+  display: flex;
+  align-items: center;
+}
+
+div.p {
+  max-height: 0px;
+  overflow: hidden;
+  transition: max-height 0.5s;
+  background-color: white;
+  
+}
+
+div.p p {
+  padding: 2em;
+}
+
+input:checked~h3 label::before {
+  border-left: 15px solid transparent;
+  border-top: 20px solid white;
+  margin-top: 12px;
+  margin-right: 10px;
+}
+
+input:checked~h3~div.p {
+  max-height: 100px;
+}
+
+a {
+  color: steelblue;
+}
+
+h3 {
+  border-radius: 0px;
+}
+
+
                 
