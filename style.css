@@ -30,7 +30,10 @@
 }
 body {
   font-family: 'Open Sans', sans-serif;
-  color: #222;
+  color: #222; 
+}
+.text{
+  font-size: 20px;
 }
 span{
   color: #75E2FF;
@@ -108,7 +111,7 @@ color: #fff'
 }
 
 .hero {
-  background-image: url('imgs/image00060.jpeg');
+  background-image: url('imgs/BackSobre.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: bottom center;
@@ -145,7 +148,7 @@ color: #fff'
 .column{
   text-align: center;
   width: 50%;
-  float: left;
+  float: left; 
 }
 .clearfix::after {
   content: "";
@@ -272,6 +275,7 @@ color: #fff'
 }
 .footer1 {
   background-color: #28576e;
+  align-items: center;
   text-align: center;
   padding: 5px;
   color: white;
@@ -317,6 +321,8 @@ div.c {
   position: relative;
   margin: 0em;
   border-radius: 35px;
+  color: black;
+  font-size: 16px;
 }
 
 input {
@@ -330,7 +336,7 @@ input {
 }
 
 h3 {
-  background: #75d2ff;
+  background: #244d61;
   color: white;
   padding: 1em;
   position: relative;
@@ -454,13 +460,12 @@ h3 {
   margin-top: 20px;
   margin-bottom: 20px;
 }
-.duvidaImg{
-  padding: 100px;
-
-}
 .column25 {
-  align: center;
+  align-items: center;
   text-align: center;
   width: 25%;
   float: left;
+}
+.subfooter{
+  text-align: right;
 }
