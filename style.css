@@ -37,6 +37,15 @@
         #sobre1 > div:nth-child(2) > div > h1{
           margin:0;
         }
+        #aa {
+          display: none;
+        }
+        #bb {
+          width: 50%;
+        }
+        #cc {
+          width: 50%;
+        }
 }
 }
 * {
