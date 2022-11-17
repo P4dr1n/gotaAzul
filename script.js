@@ -36,7 +36,7 @@ function ham() {
     document.querySelector('.topnav').style.height = "80px";
   } else {
     x.style.display = "flex";
-    document.querySelector('.topnav').style.height = "190px";
+    document.querySelector('.topnav').style.height = "150px";
     x.style.fontSize = "12px";
   }
 }
