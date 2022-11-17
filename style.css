@@ -394,7 +394,7 @@ input:checked~h3 label::before {
 }
 
 input:checked~h3~div.p {
-  max-height: 150px;
+  max-height: 200px;
 }
 
 a {
