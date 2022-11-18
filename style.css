@@ -62,6 +62,9 @@ body {
 .text{
   font-size: 20px;
 }
+.tituloAzul:hover{
+  color: #244d61;
+}
 span{
   color: #75E2FF;
   font-size: 50px;
@@ -454,10 +457,6 @@ h3 {
   display: inline-flex;
   align-items: center;
   height: inherit;
-}
-#duvidas {
-
-  padding-top: 30px;
 }
 #face:hover{
   border-radius: 45px;
