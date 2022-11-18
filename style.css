@@ -46,6 +46,11 @@
         #cc {
           width: 50%;
         }
+        #sobre1>div:nth-child(2)>div>h1{
+          font-size: 25px;
+          margin-top: 10px;
+          margin-bottom: 10px;
+        }
 }
 * {
   box-sizing: border-box;
